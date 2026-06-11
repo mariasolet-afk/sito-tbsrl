@@ -16,7 +16,7 @@ export const metadata: Metadata = {
   title: "T.B. S.r.l. | Qualità su strada",
   description: "T.B. S.r.l. - Trasporti nazionali e internazionali, logistica e servizi a temperatura controllata.",
   icons: {
-  icon: "/logo.png",},
+  icon: "/icon.png",},
   keywords: [
     "trasporti",
     "logistica",
