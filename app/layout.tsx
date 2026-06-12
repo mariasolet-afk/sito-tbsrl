@@ -25,7 +25,7 @@ export const metadata: Metadata = {
     ],
   },
   verification: {
-    google: "GmvHnuIjGOUgnzZZ8RR5IsHIGtsnq7BSKuFIxoPRsM8",
+    google: "GmvHnuIjGOUgnzZZ8RR5IsHIGtsnuq7BSKuFIxoPRsM8",
   },
   keywords: [
     "trasporti",
