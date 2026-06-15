@@ -24,3 +24,61 @@ body {
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
 }
+@media (max-width: 768px) {
+  header {
+    padding: 20px !important;
+    height: auto !important;
+  }
+
+  nav {
+    display: flex !important;
+    flex-wrap: wrap !important;
+    justify-content: center !important;
+    gap: 18px !important;
+    width: 100% !important;
+  }
+
+  nav a {
+    font-size: 14px !important;
+    display: block !important;
+  }
+
+  .logo,
+  header img {
+    max-width: 120px !important;
+    height: auto !important;
+  }
+
+  main,
+  section {
+    padding-left: 20px !important;
+    padding-right: 20px !important;
+  }
+
+  h1 {
+    font-size: 36px !important;
+    line-height: 1.1 !important;
+  }
+
+  h2 {
+    font-size: 26px !important;
+  }
+
+  p {
+    font-size: 18px !important;
+    line-height: 1.6 !important;
+  }
+
+  .grid,
+  .cards,
+  .services-grid {
+    display: flex !important;
+    flex-direction: column !important;
+    gap: 24px !important;
+  }
+
+  img {
+    max-width: 100% !important;
+    height: auto !important;
+  }
+}
