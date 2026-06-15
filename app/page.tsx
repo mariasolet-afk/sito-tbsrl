@@ -28,8 +28,8 @@ export default function Home() {
       </nav>
     </header>
     
-    <section className="mx-auto rounded-3xl relative overflow-hidden bg-blacktext-white">
-      <div className="grid min-h-[720px] grid-cols-1 lg:grid-cols-2">
+    <section className="mx-auto rounded-3xl relative overflow-hidden bg-black text-white min-h-[820px] md:min-h-[720px]">
+      <div className="grid min-h-[820px] grid-cols-1 lg:min-h-[720px] lg:grid-cols-2">
         <div className="relative z-10 flex items-center bg-white px-10 py-24 lg:px-20">
           <div className="max-w-7xl">
             <p className="mb-8 text-sm font-semibold uppercase tracking-[0.35em] text-red-700">
@@ -47,21 +47,21 @@ export default function Home() {
              con un servizio orientato ad efficienza, puntualità e sicurezza.
             </p>
 
-            <button className="mt-10 rounded-full bg-red-700 px-10 py-5 font-bold text-white text-lg shadow-lg">
-              <Link href="/contatti" className="rounded-full bg-red-700 px-8 py-4 font-bold text-white shadow-lg transition hover:bg-red-800">Contatta il nostro team</Link> 
-              <Link href="/azienda" className="rounded-full border border-zinc-300 bg-white px-8 py-4 font-bold transition hover:border-red-700 hover:text-red-700">Scopri l'azienda</Link>
+            <button className="mt-10 flex flex-col gap-4 sm:flex-row rounded-full bg-red-700 px-10 py-5 font-bold text-white text-lg shadow-lg">
+              <Link href="/contatti" className="w-full rounded-full bg-red-700 px-8 py-4 text-center text-lg font-bold text-white shadow-lg transition hover:bg-red-800 sm-w-auto">Contatta il nostro team</Link> 
+              <Link href="/azienda" className="w-full rounded-full border border-zinc-300 bg-white px-8 py-4 text-lg font-bold transition hover:border-red-700 hover:text-red-700 sm:w-auto">Scopri l'azienda</Link>
             </button>
           </div>
         </div>
       </div>
 
-      <div className="relative h-[800px] overflow-hidden border border-zinc-200 bg-zinc-950 h-[500px] text-white rounded-b-[120px] shadow-2x1 bg-gradient-to-br">
+      <div className="relative h-[800px] overflow-hidden border border-zinc-200 bg-zinc-950 h-[500px] text-white rounded-b-[120px] shadow-2x1 bg-gradient-to-br z-10 mx-auto max-w-7xl px-6 pb-40 pt-24 md:px-10 md:py-44">
         <img
           src="/camion .jpg"
           alt="Camion aziendale"
           width={1200}
           height={1000}
-          className="h-full w-full absolute inset-0 object-cover scale-140"
+          className="h-full w-full absolute inset-0 object-cover object-center lg:scale-140"
         />
         <svg className="absolute inset-0 h-full w-full"
         xmlns="http://www.w3.org/2000/svg"
