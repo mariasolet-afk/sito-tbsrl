@@ -55,7 +55,7 @@ export default function Home() {
         </div>
       </div>
 
-      <div className="relative h-[800px] overflow-hidden border border-zinc-200 bg-zinc-950 h-[500px] text-white rounded-b-[120px] shadow-2x1 bg-gradient-to-br z-10 mx-auto max-w-7xl px-6 pb-40 pt-24 md:px-10 md:py-44">
+      <div className="relative h-[420px] overflow-hidden border border-zinc-200 bg-white h-[500px] text-white rounded-b-[60px] shadow-2x1 bg-gradient-to-br z-10 mx-auto max-w-7xl px-6 pb-40 pt-24 md:px-10 md:py-44 md:h-[800px] md:rounded-b-[120px]">
         <img
           src="/camion .jpg"
           alt="Camion aziendale"
