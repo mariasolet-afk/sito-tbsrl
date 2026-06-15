@@ -31,7 +31,7 @@ export default function Servizi() {
         di internal auditing e reporting supportati dai più avanzati sistemi informatici, garantisce 
         il continuo monitoraggio dei livelli di qualità, efficienza e puntualità del servizio.
     </p>
-    <aside className="ml-auto lg:w-[45%] lg:grid-cols-4 top-50 rounded-[6rem] bg-white p-8 shadow-3xl">
+    <aside className="ml-auto lg:w-[45%] lg:grid-cols-4 rounded-[6rem] bg-white p-8 shadow-3xl">
       <h2 className="text-xl font-black text-red-700">
         COSA OFFRIAMO
       </h2>
